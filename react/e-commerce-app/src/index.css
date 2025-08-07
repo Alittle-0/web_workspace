@@ -1,0 +1,8 @@
+/* Import global styles */
+@import "./styles/global.css";
+
+/* Additional global styles specific to the app */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
