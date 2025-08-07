@@ -1,0 +1,41 @@
+.counter {
+  background-color: var(--card-bg, white);
+  border: 2px solid var(--border-color, #e0e0e0);
+  border-radius: 12px;
+  padding: 25px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px var(--shadow, rgba(0, 0, 0, 0.1));
+  max-width: 600px;
+  font-family: "Arial", sans-serif;
+}
+
+.counter h2 {
+  font-size: 1.8em;
+  color: var(--text-color, #333);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.button button {
+  background-color: var(--button-bg, #007bff);
+  color: var(--button-text, white);
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 100px;
+  flex: 1;
+  max-width: 150px;
+  text-align: center;
+}
+
+.button button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px var(--shadow, rgba(0, 0, 0, 0.2));
+  opacity: 0.9;
+}

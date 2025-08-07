@@ -1,0 +1,24 @@
+.greeting-card {
+  background-color: var(--card-bg, white);
+  border: 2px solid var(--border-color, #e0e0e0);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 6px var(--shadow, rgba(0, 0, 0, 0.1));
+  text-align: center;
+  max-width: 300px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.greeting-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px var(--shadow, rgba(0, 0, 0, 0.15));
+}
+
+.greeting-card h2 {
+  color: var(--text-color, #333);
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 1.2em;
+}

@@ -1,0 +1,8 @@
+.App {
+  margin: 0;
+  color: black;
+  text-align: center;
+}
+.greetingCard {
+  display: flex;
+}
